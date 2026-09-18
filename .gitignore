@@ -1,0 +1,57 @@
+# ============================================================
+# .gitignore — Self-Evolving IDS
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data (raw datasets can be large — keep processed tracked)
+data/raw/*.csv
+data/raw/*.txt
+data/raw/*.zip
+data/raw/*.gz
+
+# Models (binary files — re-trainable)
+models/*.pkl
+models/*.pt
+models/*.json
+models/versions/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Misc
+*.bak
+*.tmp

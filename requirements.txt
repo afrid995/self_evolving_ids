@@ -1,0 +1,39 @@
+# ============================================================
+# Self-Evolving IDS - Python Dependencies
+# All packages are free and open-source.
+# Install with: pip install -r requirements.txt
+# NOTE: Install PyTorch CPU separately FIRST (see setup_project.py)
+# ============================================================
+
+# --- Core Data ---
+numpy>=1.26
+pandas>=2.2
+
+# --- Machine Learning ---
+scikit-learn>=1.5
+xgboost>=2.0
+joblib>=1.4
+
+# --- Drift Detection ---
+river>=0.21
+
+# --- Explainability ---
+shap>=0.45
+
+# --- Visualization ---
+matplotlib>=3.9
+pyqtgraph>=0.13
+
+# --- GUI (Phase 2) ---
+PySide6>=6.7
+
+# --- Storage ---
+pyarrow>=17.0
+
+# --- Packaging & Testing ---
+pyinstaller>=6.9
+pytest>=8.3
+
+# --- Utilities ---
+tqdm>=4.66
+colorama>=0.4
